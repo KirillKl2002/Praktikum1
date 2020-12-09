@@ -1,0 +1,6 @@
+yyyy=ds[0:4]
+mm=ds[5:7]
+dd=ds[8:10]
+
+date=dd+"/"+mm+"/"+yyyy
+print ("Российский формат",date)
