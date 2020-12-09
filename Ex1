@@ -1,6 +1,9 @@
-yyyy=ds[0:4]
-mm=ds[5:7]
-dd=ds[8:10]
+from datetime import date
+y=date.today()
+x=str(y)
+yyyy=x[0:4]
+mm=x[5:7]
+dd=x[8:10]
 
 date=dd+"/"+mm+"/"+yyyy
 print ("Российский формат",date)
