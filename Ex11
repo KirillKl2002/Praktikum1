@@ -1,0 +1,16 @@
+a = input("Введите длинну коробки ")
+a = int(a)
+b = input("Введите ширину коробки ")
+b = int(b)
+c= input("Введите высоту коробки ")
+c = int(c)
+m = input("Введите ширину двери ")
+m = int(m)
+x = input("Введите высоту двери ")
+x = int()
+if ((c <= x and b <= x)
+    or (c <= x and a <= x)
+        or (a <= x and b <= x)):
+            print("Пройдет")
+else:
+    print("Не пройдет")
