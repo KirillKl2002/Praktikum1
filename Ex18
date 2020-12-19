@@ -1,0 +1,24 @@
+import math
+A= (input("Ребро кубической ёмкости ")
+A = int(A)
+R = input("Радиус основания цилиндрической ёмкости ")
+R = int(R)
+H = input("Высота цилиндрической ёмкости ")
+H = int(H)
+M = input("Объем жидкости ")
+M = int(M)
+
+X = math.pow(A, 3)
+
+print("Объем куба")
+print(X)
+Y = ((math.pi) * (math.pow(R, 2)) * H)
+
+print ("Объем цилиндра")
+print(Y)
+
+if (X + Y < M ):
+    print("Поместится в оба сосуда")
+if (X <= M):
+    print("Поместится в куб")
+if (Y <= M):
