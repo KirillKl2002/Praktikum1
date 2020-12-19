@@ -1,0 +1,6 @@
+x= int(x)
+
+if x % 2 = 0 and x % 10 = 0:
+    print(" x кратен 10, четно")
+else:
+    print("u lost")
