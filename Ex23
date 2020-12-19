@@ -1,0 +1,10 @@
+import math
+X = float(X)
+Y = float(Y)
+
+if X > Y:
+    Z = math.sqrt(X * Y)
+    print(Z)
+else:
+    Z = math.log(X + Y, math.e)
+    print(Z)
