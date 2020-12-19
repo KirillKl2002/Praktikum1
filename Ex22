@@ -1,0 +1,13 @@
+import sys
+A = float(A)
+B = float(B)
+C = float(C)
+
+if A < B and B > C:
+    print("Выполняются оба неравенства ")
+    break
+
+if A < B:
+    print("А < B")
+if B > C:
+    print("B > C")
