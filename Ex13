@@ -1,0 +1,9 @@
+import math
+x = int(x)
+y = int(y)
+A = math.sqrt(math.pow(y, 2)*2)
+print("Диагональ бруса равна ", A)
+if (A <= x):
+    print("возможно")
+else:
+    print("невозможно")
