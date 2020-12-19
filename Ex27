@@ -1,0 +1,12 @@
+import math
+a = float(a)
+x = a
+if x <= 0:
+    fx = 0
+    print("x <= 2; f(a) = ", fx)
+elif 0 < x < 1:
+    fx = x**2 - x
+    print("0 < x < 1; f(a) = ", fx)
+else:
+    fx = math.pow(x, 2) - math.sin((math.pi * x**2))
+    print("x >= 1; f(a) = ", fx)
