@@ -1,0 +1,9 @@
+import math
+S = int(S)
+R = int(R)
+K = int(K)
+A = math.sqrt(S)
+if (A - 2*R >= K):
+    print("МОжно")
+else:
+    print("Нельзя")
