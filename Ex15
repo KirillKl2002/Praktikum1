@@ -1,0 +1,9 @@
+X = int(X)
+if (X > 0 and X < 37):
+    print("Купе")
+else:
+    print("Боковое")
+if (X % 2 = 0):
+    print("Верхнее")
+else:
+    print("Нижнее")
