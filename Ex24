@@ -1,0 +1,16 @@
+import sys
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+
+
+if ((a < c and b < d)
+    or (a < d and b < c)):
+    print("Получится")
+else:
+    print("Не получится")
+    
+  if a < 0 or b < 0 or c < 0 or d < 0:
+    print("error")
+    break
