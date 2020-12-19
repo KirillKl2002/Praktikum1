@@ -1,0 +1,7 @@
+x = int(x)
+y =x/1000
+z=y/1000
+print("КИло")
+print(y)
+print("тонны")
+print(z)
