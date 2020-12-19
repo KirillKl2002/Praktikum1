@@ -1,0 +1,7 @@
+x = int(x)
+y = int(y)
+
+if x != 0 and y != 0:
+ Z = 1/(x*y)
+ else ptint("Error")
+print(Z)
