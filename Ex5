@@ -1,0 +1,6 @@
+import math
+x = int(x)
+y=x/1024
+z=y/1024
+print("килобайты", y)
+print("мегабайты", z)
