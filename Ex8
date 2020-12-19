@@ -1,0 +1,6 @@
+x= int(x)
+
+if x % 2 = 1 and x % 5 = 0:
+    print(" x кратен 5, neчетно")
+else:
+    print("u lost")
