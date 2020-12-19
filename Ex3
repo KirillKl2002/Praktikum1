@@ -1,0 +1,12 @@
+import math
+a = int(side_a)
+b = int(side_b)
+c = int(side_c)
+side_a = input(" Сторона А")
+side_b = input(" Сторона B")
+side_c = input(" Сторона C")
+P=a+b+c
+PP=P/2
+S = math.sqrt(PP*(PP-a)*(PP-b)*(PP-c))
+print("Периметр",P)
+print("Площадь",S)
