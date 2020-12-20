@@ -1,0 +1,11 @@
+import random
+n = int(n)
+a = [random.randint(0, 100) for i in range(n)]
+print(a)
+x= 1
+while x < n - 1:
+    for i in range(n - x):
+        if a[i] > a[i + 1]:
+            a[i], a[i + 1] = a[i + 1], a[i]
+            x += 1
+print(a)
