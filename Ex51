@@ -1,0 +1,11 @@
+import random
+M=random.randint(1,10)
+arr=[random.randint(1,10) for i in range(M)]
+for i in range(M):
+    arr[i]=input()
+ print ("Cимволов в самой длинной строке")
+print(+ str(len(max(arr))))
+x=len(max(arr))
+for i in range(M):
+    y=x-len(arr[i])
+    print("*" * y + str(arr[i]))
