@@ -1,0 +1,15 @@
+x = int(x)
+
+if (x % 4 = 0 and x % 100 != 0) or (x % 400 = 0):
+    print("Високосный")
+else:
+    print("Невисокосный")
+
+if x % 100 == 0:
+    x = x // 100
+    print ("век")
+    print(y)
+elif y % 100 != 0:
+    y = (y // 100) + 1
+    print ("век")
+    print(y
