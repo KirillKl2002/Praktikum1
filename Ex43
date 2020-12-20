@@ -1,0 +1,15 @@
+import random
+import numpy as np
+X = []
+Y = []
+N = int(N)
+A = [random.randint(-10,10) for i in range(0,N)]
+
+for i in range(N):
+    if A[i] > 0:
+        Y.append(A[i])
+    if A[i] < 0:
+        X.append(A[i])
+        
+print(X)
+print(Y)
