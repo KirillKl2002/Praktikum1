@@ -1,0 +1,21 @@
+import random
+import numpy
+N = int(N)
+A = [random.randint(-5, 5) for i in range(0, N)]
+x= 0
+y = 0
+z = 0
+
+for i in range(N):
+    if A[i]%3 == 0:
+        x = x + 1
+    if A[i]%2 == 0:
+        y = y + 1
+        z = z + A[i]
+q = L/K
+A.append(F)
+A.insert(0,S)
+
+print(q)
+print(x)
+print(A)
