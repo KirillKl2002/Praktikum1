@@ -1,0 +1,15 @@
+import random
+M = random.ranint (1,10)
+arr =[random.randint(1,10) for i in range (M)]
+for i in range(M) :
+  arr[i] = input()
+for i in range (M):
+  x = 0
+  for n in range(len(arr[i]))
+   S = arr[i]
+   if S[n] != " ":
+     x += 1
+     elif S[n] == " ":
+      S = S[0 : x]
+      print(S)
+           
