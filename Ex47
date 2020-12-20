@@ -1,0 +1,12 @@
+import random
+import numpy
+
+N = int(N)
+B = int(N)
+C = int(N)
+A = [random.randint(-10, 10) for i in range(0, N)]
+print(A)
+C = C + 1
+del A[B:C]
+
+print(A)
