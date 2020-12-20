@@ -1,0 +1,9 @@
+import random
+M = random.randint(1,10)
+arr = [random.randint(1,10) for i in range(M)]
+for i in range(M):
+    arr[i] = input()
+for i in range(M):
+    if len(arr[i]) % 2 == 1:
+        x = arr[i]
+        print(x[len(arr[i]) // 2])
