@@ -30,7 +30,7 @@ def print_matrix(matrix):
 
 
 A = get_matrix(N, M)
-print("Исходная матрица:")
+print("Начальная матрица")
 print_matrix(A)
 i = 0
 while i < len(A):
