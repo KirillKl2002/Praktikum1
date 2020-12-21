@@ -1,0 +1,36 @@
+import re
+list_numbers = []
+x = 0
+y = 0
+a = 1
+b = 0
+i = 1
+while True:
+  print("Введите число:", end=' ')
+  string = re.sub(r'\D', '', input())
+  if len(string) == 0:
+    print("В строке не обнаружено числа")
+    continue
+    
+  number = int(string)
+  list_numbers.append(number)
+ 
+  if i % 2 != 0:
+   x += number
+   y += 1
+  
+  else:
+    a = a * number
+    b += 1
+    
+  i += 1
+  if list_numbers[len(list_numbers) - 1] == 55555:
+    break
+print("Сумма")    
+print(x)
+print("Количество слагаемых:", 
+print(y)
+print("Произведение")
+print(a)
+print("Количество множителей:")
+print(b) 
