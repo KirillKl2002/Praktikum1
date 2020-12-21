@@ -1,0 +1,57 @@
+import random
+N = int (N)  
+M = Int(M)
+L = Int(L)
+K = Int (K)
+
+def get_row(column):
+    col = []
+    for i in range(0, column):
+        col.append(random.randint(-9, 9))
+
+    return col
+
+
+def get_matrix(row, column):
+    matrix = []
+    for i in range(0, row):
+        matrix.append(get_row(column))
+
+    return matrix
+
+
+def print_matrix(matrix):
+    i = 0
+    while i < len(matrix):
+        j = 0
+        row = matrix[i]
+        while j < len(row):
+            column = row[j]
+            print(column, end=' ')
+            j += 1
+
+        print()
+        i += 1
+
+
+A = get_matrix(N, M)
+print("Начальная матрица:")
+print_matrix(A)
+
+x = 0
+y = 0
+i = 0
+
+while i < len(A):
+    j = 0
+    while j < len(A[i]):
+        if A[i][j] == 0:
+            if i < L:
+                x += 1
+            if j < K:
+                y+= 1
+        j += 1
+    i += 1
+
+print( % (L, x))
+print( % (K, y))
