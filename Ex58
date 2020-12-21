@@ -1,0 +1,9 @@
+x = input()
+print(text)
+K = input("Введите время")
+
+for i in range(len(x)):
+    if x[i] == ".":
+        x = (text.replace(x[i], K))
+
+print(x)
